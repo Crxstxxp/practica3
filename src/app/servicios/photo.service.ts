@@ -10,7 +10,7 @@ public photos:any[] = [];
   constructor() { }
   public async addPhoto() {
 
-    const photo= await Camera.getPhoto({
+    const photo = await Camera.getPhoto({
       resultType:CameraResultType.Uri,
       source:CameraSource.Camera,
       quality:100
